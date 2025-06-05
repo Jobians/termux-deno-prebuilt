@@ -31,6 +31,7 @@ wget https://github.com/jobians/termux-deno-prebuilt/releases/download/v2.1.2/de
 ### 2. Install the package:
 
 ```bash
+pkg install libffi
 dpkg -i deno_2.1.2_aarch64.deb
 ```
 
